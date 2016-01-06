@@ -1,0 +1,96 @@
+<?php
+	function viewPratique(){
+		entete_pratique();
+		menu_metiers();
+	echo'<div class="page-container">
+
+<!-- Hero Bloc -->
+<div id="hero-bloc" class="bloc hero bgc-white bg-map d-bloc">
+	<div class="container bloc-sm hero-nav">
+		<nav class="navbar row">
+			<div class="navbar-header">
+
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse navbar-1">
+				<ul class="site-navigation nav navbar-nav pull-right">
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div class="v-center">
+		<div class="vc-content row">
+			<div class="col-sm-12">
+				<h2 class="mg-md  text-center">
+					Urbadrone vous accompagne dans la réussite de votre formation en acquérant les notions nécessaires pour maitriser le pilotage des drones et l&rsquo;obtention de la déclaration.<br /><br />Cette formation est ouverte à toutes personnes souhaitant se lancer comme telepilote professionnel Pour effectuer des missions de prises de vues, de vidéos, d&rsquo;inspections,etc….<br /><br />Pour évoluer en toute sécurité, nous mettons à votre disposition un terrain de 1 hectare ainsi qu&rsquo;un Hangar au cas où les conditions climatiques l&rsquo;imposent.
+				</h2>
+				<div class="text-center">
+					<a href="#" class="btn-wire btn btn-xl">Cette formation se décompose en deux parties</a>
+				</div>
+			</div>
+		</div><a id="scroll-hero" class="btn-dwn"><span class="fa fa-chevron-down"></span></a>
+	</div>
+</div>
+<!-- Hero Bloc END -->
+
+<!-- bloc-2 -->
+<div class="bloc l-bloc bgc-white" id="bloc-2">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-6">
+				<h2 class="mg-lg tc-brandeis-blue">
+					Formation initiale
+				</h2>
+				<p class="mg-lg">
+					<strong><u>Fonctionnement d\'un drone :</u></strong><br />- Connaissance du drone et de ses accessoires<br />- Connaitre les différents types de batteries et l&rsquo;utilisation du chargeur<br />- Prise en main de la télécommande.<br /><br /><strong><u>Réglementation et consigne de sécurité :</u></strong><br />- Check-lists avant décollage<br />- Reconnaître les zones de décollage<br />- Savoir évaluer la distance avec le drone<br />- Découvrir les différents scenarios opérationnels (S1, S2, S3, S4)<br /><br /><strong><u>Pilotage en double commande avec un instructeur :</u></strong><br />- Identifier les différents axes (tangage-roulis, gaz et lacet).<br />- Découvrir les phases de vols.<br />- Réaliser des atterrissages de précision.<br />- Effectuer des mouvements de translations complexes<br />- Réaliser des vols en mode stationnaire de côté<br />- Initiation au virage<br />- Travailler l\'inversion des commandes.
+				</p>
+			</div>
+			<div class="col-sm-6">
+				<img src="src/img/DJI_0040-1.jpg" class="img-responsive" />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-2 END -->
+
+<!-- Footer - bloc-3 -->
+<div class="bloc l-bloc bgc-white" id="bloc-3">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col-sm-6">
+				<img src="src/img/DJI_0051%20(2).JPG" class="img-responsive" />
+			</div>
+			<div class="col-sm-6">
+				<h2 class="mg-lg tc-brandeis-blue">
+					Formation avancée
+				</h2>
+				<p class="mg-lg">
+					<strong><u>Vol en autonomie :</u></strong><br />- Maitriser le pilotage<br />- Maitriser les différents modes de pilotage<br />- Connaître la règlementation française pour les utilisateurs professionnels<br /><br /><strong><u>Technique :</u></strong><br />- Montage et paramétrage d&rsquo;un drone<br />- Maitriser les paramètres de la télécommande<br />- Apprentissage des manœuvres d&rsquo;urgence en vol<br />- Gérer la sécurité du vol
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Footer - bloc-3 END -->
+
+<!-- Footer - bloc-4 -->
+<div class="bloc l-bloc bgc-white" id="bloc-4">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-sm-10">
+				<h3 class="mg-md">
+					Prix de la formation : 4295€<br />Durée : 12 jours
+				</h3>
+			</div>
+			<div class="col-sm-2">
+				<a href="index.html" class="btn   btn-lg btn-brandeis-blue">S\'inscrire</a>
+			</div>
+		</div>
+	</div>
+</div>
+';
+bas();
+	}
+?>

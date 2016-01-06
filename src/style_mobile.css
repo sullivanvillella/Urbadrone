@@ -1,0 +1,59 @@
+/* IMPORTS */
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,400);
+
+/* HTML RESET */
+html, body, div, p, span, h1, nav, ul, li, a {
+	margin: 0;
+	padding: 0;
+}
+
+/* 	GENERAL */
+body {
+	cursor: default;
+	font-weight: 200;
+	font-family: 'Raleway', sans-serif;
+	background: url(img/background.png) no-repeat center fixed;
+  	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  	background-size: cover; /* version standardisée */
+}
+.logo{
+	position: relative;
+	margin-top: 4%;
+	margin-bottom: 65%;
+	height: 90px;
+}
+.bouton ul,li,a{
+	position: relative;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	line-height: 100px;
+	font-size: 50px;
+}
+.bouton ul li a{
+	font-weight: 500;
+	color: white;
+}
+
+#formations {background-color:#4A90E2;}
+#communication{background-color: #EA6153;}
+#urba{background-color: #7ED321;}
+#blog{background-color: #494948;}
+
+.bouton ul li{margin-bottom: 10px;}
+
+
+#footer{
+	margin-right: 0px;
+	padding-right: 0px;
+	margin-top: 30px;
+	max-width: 100%;
+	width: 100%;
+}
+#footer ul{margin-left: 18%;}
+#footer ul li{
+	display: inline;
+	margin-left: 5%;
+}
+
+
